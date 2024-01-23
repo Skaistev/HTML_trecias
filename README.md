@@ -7,7 +7,7 @@ Astronaut
 
 This project is for educational porpuses only. 
 
-Site published at: 
+Site published at: https://skaistev.github.io/HTML_trecias/
 
 
 
@@ -42,7 +42,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone 
+    git clone https://github.com/Skaistev/HTML_trecias.git
     ```
 2. Install NPM packages
     ```sh
