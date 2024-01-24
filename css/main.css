@@ -7,7 +7,7 @@ span ~ a { visi uz span esantys tag iamami}
 
  body,
  body * {
-    margin: 0;
+    margin:0;
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
@@ -22,7 +22,7 @@ span ~ a { visi uz span esantys tag iamami}
     justify-content:space-between;
     align-items: center;
     gap: 20px;
-    background-color: yellow;
+    background-color: white;
     margin-left: calc((100% - 800px)/2);
     margin-bottom: 40px;
     margin-top: 20px;
@@ -30,8 +30,8 @@ span ~ a { visi uz span esantys tag iamami}
 }
 
  .logo{
-    margin-left: 30px;
-
+    margin-left: 25px;
+    width: 90px
 }
 
 .main-nav{
@@ -79,7 +79,7 @@ span ~ a { visi uz span esantys tag iamami}
 }
 .subtitle{
     font-weight: normal;
-    font-weight: 1000;
+    font-weight: 780;
     font-size:40px;
 
 
@@ -103,7 +103,7 @@ span ~ a { visi uz span esantys tag iamami}
     border-width:2px;
     border-radius: 50px;
     padding: 10px;
-    width: 120px;
+    width: 130px;
     text-align: center;
     text-decoration: none;
    text-transform: uppercase;
@@ -120,16 +120,17 @@ span ~ a { visi uz span esantys tag iamami}
     
 
 }
-
-
-
-.social{
+.social{ 
+    margin-left: 50px;
 
 }
 .social-link{
 
 }
 .copyright-text{
-
+  margin-right: 30px;
+  font-size: 8px;
 }
-
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
