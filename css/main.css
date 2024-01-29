@@ -122,7 +122,8 @@ border-bottom-style: solid;
     background-color: white;
     color:rgb(122, 60, 122) ;
     border-color: rgb(122, 60, 122);
-line-height: 116%;}
+line-height: 116%;
+}
 
 .btn-list > .btn:hover{
     border-color: black;
