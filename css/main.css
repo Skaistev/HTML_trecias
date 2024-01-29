@@ -132,7 +132,11 @@ line-height: 116%;}
 
 .social{ 
     display: flex;
-    gap:10px;
+    justify-content:space-between;
+    gap:12px;
+    margin-left: 45px;
+    margin-right: 45px;
+
    
 }
 .social > .social-link{
@@ -146,7 +150,6 @@ line-height: 116%;}
 }
 
 .copyright-text{
-  margin-right: 80px;
   font-size: 6px;
 }
 
