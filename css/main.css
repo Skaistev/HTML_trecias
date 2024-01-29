@@ -37,23 +37,24 @@ span ~ a { visi uz span esantys tag iamami}
 }
 
 .main-nav{
-    width: 250px;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-right: 80px;
+    gap: 20px;
  
-
 }
 .main-nav > .nav-link{ 
     text-decoration: none;
     color: black;
 }
 
-.main-nav > .nav-link:hover { 
-    text-decoration: underline;  
+.main-nav > .nav-link.active {
+    border-color: rgb(240, 179, 47);
+border-bottom-style: solid;
 }
 
+.main-nav > .nav-link:hover { 
+    border-bottom: rgb(157, 101, 230); 
+    border-bottom-style: solid; 
+ }
 
 .main-left{
     display: flex;
@@ -67,26 +68,23 @@ span ~ a { visi uz span esantys tag iamami}
 .main-right {
  margin-right: 20px;
     width: 600px;
+} 
+
+ main > .img {
+    width: 150%
 }
+
 .main-title {
     font-weight:normal;
-    font-size: 50px;
-    font-weight: 10;
-    margin-bottom: -30px;
-    color: rgb(83, 83, 83);
-
+    font-size: 40px;
+    font-weight:bold;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
 }
-.subtitle{
+
+.main-title > span {
+    color:rgb(112, 111, 108);
     font-weight: normal;
-    font-weight: 780;
-    font-size:40px;
-
-
-}
-.subtitle > span {
-    border-bottom-style: solid; 
-    border-color:  rgb(175, 106, 175);
-    width: 10px;
 }
 
 .description{
@@ -94,6 +92,7 @@ span ~ a { visi uz span esantys tag iamami}
    width: 240px;
    color: grey;
    margin-bottom: 20px;
+   line-height: 140%;
 
 }
 
@@ -115,49 +114,37 @@ span ~ a { visi uz span esantys tag iamami}
     font-size: 12px;
     color:white;
     background-color: rgb(122, 60, 122);
-    
+    border-color: rgb(122, 60, 122);
 }
+
 .btn-list > .btn + .btn{
     width:100px;
     background-color: white;
     color:rgb(122, 60, 122) ;
     border-color: rgb(122, 60, 122);
-    
+line-height: 116%;}
 
+.btn-list > .btn:hover{
+    border-color: black;
+    border-style:dotted;
 }
+
+
 .social{ 
-    margin-left: 50px;
+    display: flex;
+    gap:10px;
    
 }
-.social-link{
+.social > .social-link{
     text-decoration: none;
-    color: white;
-    border-width: 1px ;
-    background-color: rgb(192, 192, 192);
-    width: 15px;
-    margin-right: 10px;
-    border-radius: 2px;
-    text-align: center;
-   
-}
-.fa.fa-twitter {
     color: rgb(192, 192, 192);
-    background-color: white;
-}
-.fa.fa-facebook {
-    text-align: right;
-    font-size: 15px;
-    padding-right: 2px;
-    
+    font-size: 12px;
    
 }
-.fa.fa-linkedin{
-    text-align: right;
-    font-size: 6px;
-    height: 15px;
-    padding-right: 2px;
-    padding-top: 6px;
+.social > .social-link:hover{
+    color:  rgb(122, 60, 122);
 }
+
 .copyright-text{
   margin-right: 80px;
   font-size: 6px;
