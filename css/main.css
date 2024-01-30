@@ -141,8 +141,9 @@ line-height: 116%;
    
 }
 .social > .social-link{
+ 
     text-decoration: none;
-    color: rgb(192, 192, 192);
+    color: rgb(68, 65, 65);
     font-size: 12px;
    
 }
