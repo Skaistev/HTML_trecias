@@ -155,3 +155,34 @@ line-height: 116%;
   font-size: 6px;
 }
 
+@media (max-width: 800px){
+    .container {
+        width: 500px;
+        margin-left: calc(100% - 400px);
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .container {
+        width: 200px;
+        margin-left: 250px;
+        flex-direction: column;
+
+    }
+    main > .img {
+        width: 20px;
+    }
+}
+@media (max-width: 320px){
+    .container {
+        width: 80px;
+        margin-left: 200px;
+        flex-direction: column;
+        text-align: left;
+
+    }
+    main > .img {
+        width: 20px;
+    }
+}
