@@ -24,7 +24,7 @@ span ~ a { visi uz span esantys tag iamami}
     align-items: center;
     gap: 20px;
     background-color: white;
-    margin-left: calc((100% - 800px)/2);
+    margin-left:  calc((100% - 800px)/2);
     margin-bottom: 40px;
     margin-top: 20px;
     width: 750px;
@@ -67,7 +67,7 @@ border-bottom-style: solid;
 }
 .main-right {
  margin-right: 20px;
-    width: 600px;
+    /* width: 600px; */
 } 
 
  main > .img {
@@ -157,32 +157,33 @@ line-height: 116%;
 
 @media (max-width: 800px){
     .container {
-        width: 500px;
-        margin-left: calc(100% - 400px);
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-around;
+        width: 600px;
+        margin-left: calc(50% - 400px);
+        gap: 10px;
     }
+    .main-right {
+    padding: 10px;
+    }
+   
 }
 
 @media (max-width: 500px){
     .container {
-        width: 200px;
-        margin-left: 250px;
-        flex-direction: column;
-
+      width: 400px;
+      margin-left: calc(50% - 200px);
     }
-    main > .img {
-        width: 20px;
-    }
+    .main-right {
+        width: 380px;
+    } 
 }
-@media (max-width: 320px){
-    .container {
-        width: 80px;
-        margin-left: 200px;
-        flex-direction: column;
-        text-align: left;
+   
 
-    }
-    main > .img {
-        width: 20px;
-    }
+
+@media (max-width: 400px){
+    .container {
+        width: 100%;
+    } 
 }
